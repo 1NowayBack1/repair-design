@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+
+.header{
+  background-color: #131313;
+}
+
+.container{
+  max-width: 1438px;
+  min-height: 83px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.menu{
+  margin: auto;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+
+.menu__logo{
+  margin-right: 83px;
+}
+
+a{
+  display: inline-block;
+}
+
+.nav a{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav a:hover{
+  color: #E3B873;
+}
+
+.menu__nav a{
+  margin-right: 40px;
+}
+
+.menu__nav a:last-child{
+  margin-right: 120px;
+}
+
+.phone{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #E3B873;
+}
+
+.contacts__phone{
+  margin-right: 45px;
+}
+
+.button{
+  background: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  border: none;
+  padding: 13px 21px;
+}
+
+.contacts__button{
+  font-style: italic;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
